@@ -13,7 +13,7 @@ Just run the following code: `npm install --save simple-encrypt-js`
 This package contains 1 class with several functions. 
 ```
 import Encryption from 'simple-encrypt-js';
-const encrypt = new Encryption()
+const encrypt = new Encryption();
 ``` 
 
 Then, you can use several methods:
@@ -26,6 +26,10 @@ encrypt.derivePassword
 
 // Encrypt string
 encrypt.encryptString
+
+//decrypt string
+encrypt.decryptString
+
 ```
 
 
