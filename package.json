@@ -1,7 +1,7 @@
 {
-  "name": "package-starter",
-  "version": "0.0.0",
-  "description": "Starter",
+  "name": "encrypt-js",
+  "version": "0.1.1",
+  "description": "Simple encryption package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
@@ -42,5 +42,8 @@
     "prettier": "^1.19.1",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "node-forge": "^0.9.1"
   }
 }
