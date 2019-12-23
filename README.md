@@ -10,9 +10,11 @@ Just run the following code: `npm install --save simple-encrypt-js`
 
 ## How to use?
 
-This package contains 1 class with several functions. Initialize with:
-`import Encryption from 'simple-encrypt-js';`
-`const encrypt = new Encryption()`
+This package contains 1 class with several functions. 
+```
+import Encryption from 'simple-encrypt-js';
+const encrypt = new Encryption()
+``` 
 
 Then, you can use several methods:
 ```
