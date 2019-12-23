@@ -4,11 +4,9 @@ type EncryptionObject = {
     key: string;
     iv: string;
     encryptedString?: string;
-}
+};
 
 export default class Encryption {
-    constructor() {}
-
     /**
      * Example on how to hash a string
      * @param string

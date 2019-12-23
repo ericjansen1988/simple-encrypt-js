@@ -1,5 +1,5 @@
 {
-  "name": "encrypt-js",
+  "name": "simple-encrypt-js",
   "version": "0.1.1",
   "description": "Simple encryption package",
   "main": "lib/index.js",
